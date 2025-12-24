@@ -1,12 +1,12 @@
 # Towards Invisible Backdoor Attacks on Multi-Object Tracking via Suppressed Feature Learning
 The codebases are built on top of [MMTracking](https://github.com/open-mmlab/mmtracking?tab=readme-ov-file) and [TransTrack](https://github.com/PeizeSun/TransTrack?tab=readme-ov-file).
 
-# Download MOT17, MOT20, and CrowdHuman Datasets
+## Download MOT17, MOT20, and CrowdHuman Datasets
 MOT dataset is available in [MOT](https://motchallenge.net/).
 
 CrowdHuman dataset is available at [CrowdHuman](https://example.com).
 
-# MMTracking
+## MMTracking
 ### Environment Setup and Dataset Preparation
 Please refer to [install.md](https://github.com/open-mmlab/mmtracking/blob/master/docs/en/install.md) for install instructions of MMTracking.
 
@@ -39,7 +39,7 @@ python -m torch.distributed.launch --nproc_per_node=2 --use_env tools/test.py \
     --launcher pytorch
 ```
 
-# TransTrack
+## TransTrack
 ### Environment Setup and Dataset Preparation
 Please refer to [TransTrack](https://github.com/PeizeSun/TransTrack?tab=readme-ov-file)
 ### Model Training and Evaluation
@@ -74,7 +74,7 @@ python track_tools/eval_motchallenge.py \
   --score_threshold -1
 ```
 
-# Attack Demo
+## Attack Demo
 ### MOT17 Demo
 ![MOT17-04-FRCNN_clean](./attack_videos/MOT17-04-FRCNN_clean.gif)
 
